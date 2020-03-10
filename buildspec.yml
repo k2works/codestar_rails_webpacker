@@ -11,6 +11,8 @@ phases:
       # Install Ruby dependencies from the Gemfile.
       - bundle install
 
+      - bundle exec rails webpacker:install
+
   pre_build:
     commands:
       # Set the SECRET_KEY_BASE environment variable for running tests

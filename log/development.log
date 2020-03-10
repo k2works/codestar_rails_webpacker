@@ -1,0 +1,623 @@
+Started GET "/" for 10.140.0.52 at 2020-03-10 00:28:58 +0000
+Cannot render console from 10.140.0.52! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: Leaving `ActiveRecord::ConnectionAdapters::SQLite3Adapter.represent_boolean_as_integer`
+set to false is deprecated. SQLite databases have used 't' and 'f' to serialize
+boolean values and must have old data converted to 1 and 0 (its native boolean
+serialization) before setting this flag to true. Conversion can be accomplished
+by setting up a rake task which runs
+
+  ExampleModel.where("boolean_column = 't'").update_all(boolean_column: 1)
+  ExampleModel.where("boolean_column = 'f'").update_all(boolean_column: 0)
+
+for all models and all boolean columns, after which the flag must be set to
+true by adding the following to your application.rb file:
+
+  Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
+ (called from instance_eval at /workspace/.rvm/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:71)
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (681.9ms)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /workspace/codestar_rails_webpacker/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: a75e542df6f1d06f4e98
+Version: webpack 4.42.0
+Time: 853ms
+Built at: 03/10/2020 12:29:02 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-2181adcc3224cdc0c9c1.js   4.72 KiB  application  [emitted] [immutable]  application
+js/application-2181adcc3224cdc0c9c1.js.map    4.5 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-2181adcc3224cdc0c9c1.js js/application-2181adcc3224cdc0c9c1.js.map
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+
+Completed 200 OK in 3695ms (Views: 3690.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 10.140.0.52 at 2020-03-10 00:29:02 +0000
+Cannot render console from 10.140.0.52! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/application.js" for 10.140.0.52 at 2020-03-10 00:29:03 +0000
+Cannot render console from 10.140.0.52! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 10.140.0.52 at 2020-03-10 00:31:55 +0000
+Cannot render console from 10.140.0.52! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: Leaving `ActiveRecord::ConnectionAdapters::SQLite3Adapter.represent_boolean_as_integer`
+set to false is deprecated. SQLite databases have used 't' and 'f' to serialize
+boolean values and must have old data converted to 1 and 0 (its native boolean
+serialization) before setting this flag to true. Conversion can be accomplished
+by setting up a rake task which runs
+
+  ExampleModel.where("boolean_column = 't'").update_all(boolean_column: 1)
+  ExampleModel.where("boolean_column = 'f'").update_all(boolean_column: 0)
+
+for all models and all boolean columns, after which the flag must be set to
+true by adding the following to your application.rb file:
+
+  Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
+ (called from instance_eval at /workspace/.rvm/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:71)
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (261.7ms)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /workspace/codestar_rails_webpacker/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 0b850305fa3fd3a72f50
+Version: webpack 4.42.0
+Time: 5551ms
+Built at: 03/10/2020 12:32:02 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-2181adcc3224cdc0c9c1.js   4.72 KiB  application  [emitted] [immutable]  application
+js/application-2181adcc3224cdc0c9c1.js.map    4.5 KiB  application  [emitted] [dev]        application
+    js/hello_react-adbf96cdde6258425e51.js   1.05 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-adbf96cdde6258425e51.js.map   1.21 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  703 bytes               [emitted]              
+Entrypoint application = js/application-2181adcc3224cdc0c9c1.js js/application-2181adcc3224cdc0c9c1.js.map
+Entrypoint hello_react = js/hello_react-adbf96cdde6258425e51.js js/hello_react-adbf96cdde6258425e51.js.map
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 997 bytes {hello_react} [built]
+    + 15 hidden modules
+
+Completed 200 OK in 7629ms (Views: 7624.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 10.140.0.52 at 2020-03-10 00:32:03 +0000
+Cannot render console from 10.140.0.52! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/application.js" for 10.140.0.52 at 2020-03-10 00:32:03 +0000
+Cannot render console from 10.140.0.52! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 10.140.0.52 at 2020-03-10 00:32:11 +0000
+Cannot render console from 10.140.0.52! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (2.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 10.140.0.52 at 2020-03-10 00:32:11 +0000
+Cannot render console from 10.140.0.52! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 10.140.15.224 at 2020-03-10 00:39:10 +0000
+Cannot render console from 10.140.15.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: Leaving `ActiveRecord::ConnectionAdapters::SQLite3Adapter.represent_boolean_as_integer`
+set to false is deprecated. SQLite databases have used 't' and 'f' to serialize
+boolean values and must have old data converted to 1 and 0 (its native boolean
+serialization) before setting this flag to true. Conversion can be accomplished
+by setting up a rake task which runs
+
+  ExampleModel.where("boolean_column = 't'").update_all(boolean_column: 1)
+  ExampleModel.where("boolean_column = 'f'").update_all(boolean_column: 0)
+
+for all models and all boolean columns, after which the flag must be set to
+true by adding the following to your application.rb file:
+
+  Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
+ (called from instance_eval at /workspace/.rvm/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:71)
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (241.2ms)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: e21135ea0c7bdbd916cb
+Version: webpack 4.42.0
+Time: 1846ms
+Built at: 03/10/2020 12:39:15 AM
+                                     Asset        Size       Chunks                         Chunk Names
+    js/application-2181adcc3224cdc0c9c1.js    4.72 KiB  application  [emitted] [immutable]  application
+js/application-2181adcc3224cdc0c9c1.js.map     4.5 KiB  application  [emitted] [dev]        application
+    js/hello_react-adbf96cdde6258425e51.js    1.05 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-adbf96cdde6258425e51.js.map    1.21 MiB  hello_react  [emitted] [dev]        hello_react
+          js/react-ff64378ca037009f63b9.js    1.02 MiB        react  [emitted] [immutable]  react
+      js/react-ff64378ca037009f63b9.js.map    1.18 MiB        react  [emitted] [dev]        react
+                             manifest.json  1000 bytes               [emitted]              
+Entrypoint application = js/application-2181adcc3224cdc0c9c1.js js/application-2181adcc3224cdc0c9c1.js.map
+Entrypoint hello_react = js/hello_react-adbf96cdde6258425e51.js js/hello_react-adbf96cdde6258425e51.js.map
+Entrypoint react = js/react-ff64378ca037009f63b9.js js/react-ff64378ca037009f63b9.js.map
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 997 bytes {hello_react} [built]
+[./app/javascript/packs/react.js] 655 bytes {react} [built]
+    + 15 hidden modules
+
+ERROR in ./app/javascript/packs/react.js
+Module not found: Error: Can't resolve '../src/App' in '/workspace/codestar_rails_webpacker/app/javascript/packs'
+ @ ./app/javascript/packs/react.js 5:0-29 7:36-39
+
+ERROR in ./app/javascript/packs/react.js
+Module not found: Error: Can't resolve '../src/index.css' in '/workspace/codestar_rails_webpacker/app/javascript/packs'
+ @ ./app/javascript/packs/react.js 4:0-26
+
+ERROR in ./app/javascript/packs/react.js
+Module not found: Error: Can't resolve '../src/serviceWorker' in '/workspace/codestar_rails_webpacker/app/javascript/packs'
+ @ ./app/javascript/packs/react.js 6:0-54 17:0-24
+
+
+warning package.json: No license field
+
+Completed 200 OK in 7212ms (Views: 7207.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 10.140.15.224 at 2020-03-10 00:39:17 +0000
+Cannot render console from 10.140.15.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/application.js" for 10.140.15.224 at 2020-03-10 00:39:19 +0000
+Cannot render console from 10.140.15.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 10.140.15.224 at 2020-03-10 00:39:27 +0000
+Cannot render console from 10.140.15.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (2.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1374ms (Views: 1372.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 10.140.15.224 at 2020-03-10 00:39:28 +0000
+Cannot render console from 10.140.15.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 10.140.15.224 at 2020-03-10 00:40:44 +0000
+Cannot render console from 10.140.15.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: Leaving `ActiveRecord::ConnectionAdapters::SQLite3Adapter.represent_boolean_as_integer`
+set to false is deprecated. SQLite databases have used 't' and 'f' to serialize
+boolean values and must have old data converted to 1 and 0 (its native boolean
+serialization) before setting this flag to true. Conversion can be accomplished
+by setting up a rake task which runs
+
+  ExampleModel.where("boolean_column = 't'").update_all(boolean_column: 1)
+  ExampleModel.where("boolean_column = 'f'").update_all(boolean_column: 0)
+
+for all models and all boolean columns, after which the flag must be set to
+true by adding the following to your application.rb file:
+
+  Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
+ (called from instance_eval at /workspace/.rvm/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:71)
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (228.9ms)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /workspace/codestar_rails_webpacker/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: fa45584645513b194e7e
+Version: webpack 4.42.0
+Time: 3779ms
+Built at: 03/10/2020 12:40:51 AM
+                                                  Asset      Size       Chunks                         Chunk Names
+                 js/application-2181adcc3224cdc0c9c1.js  4.72 KiB  application  [emitted] [immutable]  application
+             js/application-2181adcc3224cdc0c9c1.js.map   4.5 KiB  application  [emitted] [dev]        application
+                 js/hello_react-adbf96cdde6258425e51.js  1.05 MiB  hello_react  [emitted] [immutable]  hello_react
+             js/hello_react-adbf96cdde6258425e51.js.map  1.21 MiB  hello_react  [emitted] [dev]        hello_react
+                       js/react-180c299115a1416d80c1.js  1.11 MiB        react  [emitted] [immutable]  react
+                   js/react-180c299115a1416d80c1.js.map  1.28 MiB        react  [emitted] [dev]        react
+                                          manifest.json  1.07 KiB               [emitted]              
+media/app/src/logo-5d5d9eefa31e5e13a6610d9fa7a283bb.svg  2.61 KiB               [emitted]              
+Entrypoint application = js/application-2181adcc3224cdc0c9c1.js js/application-2181adcc3224cdc0c9c1.js.map
+Entrypoint hello_react = js/hello_react-adbf96cdde6258425e51.js js/hello_react-adbf96cdde6258425e51.js.map
+Entrypoint react = js/react-180c299115a1416d80c1.js js/react-180c299115a1416d80c1.js.map
+[./app/javascript/app/src/App.css] 650 bytes {react} [built]
+[./app/javascript/app/src/App.js] 1.22 KiB {react} [built]
+[./app/javascript/app/src/index.css] 652 bytes {react} [built]
+[./app/javascript/app/src/logo.svg] 101 bytes {react} [built]
+[./app/javascript/app/src/serviceWorker.js] 4.74 KiB {react} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 997 bytes {hello_react} [built]
+[./app/javascript/packs/react.js] 667 bytes {react} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/app/src/App.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/app/src/App.css 1.78 KiB {react} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/app/src/index.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/app/src/index.css 1.15 KiB {react} [built]
+    + 22 hidden modules
+
+Started GET "/" for 10.140.15.224 at 2020-03-10 00:40:52 +0000
+Cannot render console from 10.140.15.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 10220ms (Views: 10215.5ms | ActiveRecord: 0.0ms)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2456ms (Views: 2453.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.140.15.224 at 2020-03-10 00:41:01 +0000
+Cannot render console from 10.140.15.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (2.0ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1500ms (Views: 1498.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.140.15.213 at 2020-03-10 00:48:28 +0000
+Cannot render console from 10.140.15.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: Leaving `ActiveRecord::ConnectionAdapters::SQLite3Adapter.represent_boolean_as_integer`
+set to false is deprecated. SQLite databases have used 't' and 'f' to serialize
+boolean values and must have old data converted to 1 and 0 (its native boolean
+serialization) before setting this flag to true. Conversion can be accomplished
+by setting up a rake task which runs
+
+  ExampleModel.where("boolean_column = 't'").update_all(boolean_column: 1)
+  ExampleModel.where("boolean_column = 'f'").update_all(boolean_column: 0)
+
+for all models and all boolean columns, after which the flag must be set to
+true by adding the following to your application.rb file:
+
+  Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
+ (called from instance_eval at /workspace/.rvm/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:71)
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (0.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1543ms (Views: 1538.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.140.15.213 at 2020-03-10 00:50:46 +0000
+Cannot render console from 10.140.15.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: Leaving `ActiveRecord::ConnectionAdapters::SQLite3Adapter.represent_boolean_as_integer`
+set to false is deprecated. SQLite databases have used 't' and 'f' to serialize
+boolean values and must have old data converted to 1 and 0 (its native boolean
+serialization) before setting this flag to true. Conversion can be accomplished
+by setting up a rake task which runs
+
+  ExampleModel.where("boolean_column = 't'").update_all(boolean_column: 1)
+  ExampleModel.where("boolean_column = 'f'").update_all(boolean_column: 0)
+
+for all models and all boolean columns, after which the flag must be set to
+true by adding the following to your application.rb file:
+
+  Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
+ (called from instance_eval at /workspace/.rvm/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:71)
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (1.5ms)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /workspace/codestar_rails_webpacker/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 223440aa6b16a8be698b
+Version: webpack 4.42.0
+Time: 2697ms
+Built at: 03/10/2020 12:50:52 AM
+                                                  Asset      Size       Chunks                         Chunk Names
+                 js/application-2181adcc3224cdc0c9c1.js  4.72 KiB  application  [emitted] [immutable]  application
+             js/application-2181adcc3224cdc0c9c1.js.map   4.5 KiB  application  [emitted] [dev]        application
+                 js/hello_react-adbf96cdde6258425e51.js  1.05 MiB  hello_react  [emitted] [immutable]  hello_react
+             js/hello_react-adbf96cdde6258425e51.js.map  1.21 MiB  hello_react  [emitted] [dev]        hello_react
+                       js/react-fdc19e8f22fa457c1d53.js  1.11 MiB        react  [emitted] [immutable]  react
+                   js/react-fdc19e8f22fa457c1d53.js.map  1.28 MiB        react  [emitted] [dev]        react
+                                          manifest.json  1.07 KiB               [emitted]              
+media/app/src/logo-5d5d9eefa31e5e13a6610d9fa7a283bb.svg  2.61 KiB               [emitted]              
+Entrypoint application = js/application-2181adcc3224cdc0c9c1.js js/application-2181adcc3224cdc0c9c1.js.map
+Entrypoint hello_react = js/hello_react-adbf96cdde6258425e51.js js/hello_react-adbf96cdde6258425e51.js.map
+Entrypoint react = js/react-fdc19e8f22fa457c1d53.js js/react-fdc19e8f22fa457c1d53.js.map
+[./app/javascript/app/src/App.css] 650 bytes {react} [built]
+[./app/javascript/app/src/App.js] 1.22 KiB {react} [built]
+[./app/javascript/app/src/index.css] 652 bytes {react} [built]
+[./app/javascript/app/src/logo.svg] 101 bytes {react} [built]
+[./app/javascript/app/src/serviceWorker.js] 4.74 KiB {react} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 997 bytes {hello_react} [built]
+[./app/javascript/packs/react.js] 770 bytes {react} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/app/src/App.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/app/src/App.css 1.78 KiB {react} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/app/src/index.css] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/app/src/index.css 1.15 KiB {react} [built]
+    + 22 hidden modules
+
+Completed 200 OK in 7410ms (Views: 7405.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.140.15.213 at 2020-03-10 00:51:39 +0000
+Cannot render console from 10.140.15.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: Leaving `ActiveRecord::ConnectionAdapters::SQLite3Adapter.represent_boolean_as_integer`
+set to false is deprecated. SQLite databases have used 't' and 'f' to serialize
+boolean values and must have old data converted to 1 and 0 (its native boolean
+serialization) before setting this flag to true. Conversion can be accomplished
+by setting up a rake task which runs
+
+  ExampleModel.where("boolean_column = 't'").update_all(boolean_column: 1)
+  ExampleModel.where("boolean_column = 'f'").update_all(boolean_column: 0)
+
+for all models and all boolean columns, after which the flag must be set to
+true by adding the following to your application.rb file:
+
+  Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
+ (called from instance_eval at /workspace/.rvm/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:71)
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (1.5ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1736ms (Views: 1729.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.140.15.213 at 2020-03-10 00:52:19 +0000
+Cannot render console from 10.140.15.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: Leaving `ActiveRecord::ConnectionAdapters::SQLite3Adapter.represent_boolean_as_integer`
+set to false is deprecated. SQLite databases have used 't' and 'f' to serialize
+boolean values and must have old data converted to 1 and 0 (its native boolean
+serialization) before setting this flag to true. Conversion can be accomplished
+by setting up a rake task which runs
+
+  ExampleModel.where("boolean_column = 't'").update_all(boolean_column: 1)
+  ExampleModel.where("boolean_column = 'f'").update_all(boolean_column: 0)
+
+for all models and all boolean columns, after which the flag must be set to
+true by adding the following to your application.rb file:
+
+  Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
+ (called from instance_eval at /workspace/.rvm/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:71)
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (0.8ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1724ms (Views: 1719.0ms | ActiveRecord: 0.0ms)
+
+

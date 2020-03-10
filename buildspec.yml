@@ -11,6 +11,8 @@ phases:
       # Install Ruby dependencies from the Gemfile.
       - bundle install
 
+      - bundle exec rake app:update:bin
+
       - bundle exec rake webpacker:install
 
   pre_build:

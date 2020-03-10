@@ -1,0 +1,361 @@
+/* Gradients */
+/* line 7, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-0 {
+  background: #00000c;
+}
+
+/* line 8, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-1 {
+  background: linear-gradient(to bottom, #020111 85%, #191621 100%);
+}
+
+/* line 9, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-2 {
+  background: linear-gradient(to bottom, #020111 60%, #20202c 100%);
+}
+
+/* line 10, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-3 {
+  background: linear-gradient(to bottom, #020111 10%, #3a3a52 100%);
+}
+
+/* line 11, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-4 {
+  background: linear-gradient(to bottom, #20202c 0%, #515175 100%);
+}
+
+/* line 12, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-5 {
+  background: linear-gradient(to bottom, #40405c 0%, #6f71aa 80%, #8a76ab 100%);
+}
+
+/* line 13, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-6 {
+  background: linear-gradient(to bottom, #4a4969 0%, #7072ab 50%, #cd82a0 100%);
+}
+
+/* line 14, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-7 {
+  background: linear-gradient(to bottom, #757abf 0%, #8583be 60%, #eab0d1 100%);
+}
+
+/* line 15, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-8 {
+  background: linear-gradient(to bottom, #82addb 0%, #ebb2b1 100%);
+}
+
+/* line 16, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-9 {
+  background: linear-gradient(to bottom, #94c5f8 1%, #a6e6ff 70%, #b1b5ea 100%);
+}
+
+/* line 17, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-10 {
+  background: linear-gradient(to bottom, #b7eaff 0%, #94dfff 100%);
+}
+
+/* line 18, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-11 {
+  background: linear-gradient(to bottom, #9be2fe 0%, #67d1fb 100%);
+}
+
+/* line 19, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-12 {
+  background: linear-gradient(to bottom, #90dffe 0%, #38a3d1 100%);
+}
+
+/* line 20, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-13 {
+  background: linear-gradient(to bottom, #57c1eb 0%, #246fa8 100%);
+}
+
+/* line 21, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-14 {
+  background: linear-gradient(to bottom, #2d91c2 0%, #1e528e 100%);
+}
+
+/* line 22, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-15 {
+  background: linear-gradient(to bottom, #2473ab 0%, #1e528e 70%, #5b7983 100%);
+}
+
+/* line 23, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-16 {
+  background: linear-gradient(to bottom, #1e528e 0%, #265889 50%, #9da671 100%);
+}
+
+/* line 24, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-17 {
+  background: linear-gradient(to bottom, #1e528e 0%, #728a7c 50%, #e9ce5d 100%);
+}
+
+/* line 25, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-18 {
+  background: linear-gradient(to bottom, #154277 0%, #576e71 30%, #e1c45e 70%, #b26339 100%);
+}
+
+/* line 26, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-19 {
+  background: linear-gradient(to bottom, #163c52 0%, #4f4f47 30%, #c5752d 60%, #b7490f 80%, #2f1107 100%);
+}
+
+/* line 27, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-20 {
+  background: linear-gradient(to bottom, #071b26 0%, #071b26 30%, #8a3b12 80%, #240e03 100%);
+}
+
+/* line 28, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-21 {
+  background: linear-gradient(to bottom, #010a10 30%, #59230b 80%, #2f1107 100%);
+}
+
+/* line 29, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-22 {
+  background: linear-gradient(to bottom, #090401 50%, #4B1d06 100%);
+}
+
+/* line 30, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.heaven-23 {
+  background: linear-gradient(to bottom, #00000c 80%, #150800 100%);
+}
+
+/* Styles */
+/* line 33, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+* {
+  margin: 0;
+}
+
+/* line 37, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 41, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Roboto, Arial, sans-serif;
+  font-size: 62.5%;
+  color: white;
+  background: linear-gradient(to bottom, #2473ab 0%, #1e528e 70%, #5b7983 100%);
+}
+
+/* line 50, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+body {
+  font-size: 1.8rem;
+}
+
+/* line 54, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+/* line 58, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 63, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 68, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -7rem;
+  position: relative;
+}
+
+/* line 76, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+footer, .push {
+  height: 7rem;
+}
+
+/* line 80, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+footer .footer-contents {
+  padding: 0 5rem;
+  position: relative;
+}
+
+/* line 85, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.website-nav {
+  position: relative;
+  padding: 5rem;
+}
+
+/* line 90, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.website-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 96, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.website-nav ul li {
+  float: left;
+  padding: 0.5rem 2rem 0.5rem 0;
+  line-height: 21px;
+}
+
+/* line 102, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.website-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 107, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.home-link {
+  font-weight: bold;
+}
+
+/* line 111, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.message {
+  position: relative;
+  padding: 0 5rem;
+  margin-bottom: 3rem;
+  width: auto;
+}
+
+/* line 118, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.message .twitter-link {
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 123, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.message .twitter-link img {
+  width: 40px;
+  height: 40px;
+}
+
+/* line 128, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.message .text {
+  float: left;
+}
+
+/* line 132, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.message:after, .website-nav:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* line 138, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.graphics {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 0;
+}
+
+/* line 146, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.graphics .tower svg {
+  width: calc(100vw);
+  height: calc(90vh);
+}
+
+/* line 151, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.graphics .cloud {
+  top: 30rem;
+  position: relative;
+}
+
+/* line 157, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.page-content {
+  padding: 1rem 5rem;
+}
+
+/* line 161, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.page-content p {
+  margin-bottom: 1rem;
+}
+
+/* line 165, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+.path {
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation: dash 5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@media (min-height: 500px) and (min-width: 700px) {
+  /* line 178, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+  .message {
+    padding: 0;
+    width: 50%;
+    left: calc(50vw - 5rem);
+    top: calc(15vh - 5rem);
+  }
+
+  /* line 185, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+  .message .text {
+    padding-right: 0rem;
+  }
+
+  /* line 189, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+  .graphics {
+    display: block;
+    margin-bottom: 6rem;
+  }
+
+  /* line 194, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+  .message .twitter-link img {
+    width: 70%;
+    height: 70%;
+  }
+
+  /* line 199, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+  .page-content {
+    padding: 3rem 5rem;
+  }
+}
+@media (min-height: 500px) and (min-width: 1240px) {
+  /* line 205, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+  .message {
+    left: calc(50vw - 10rem);
+    top: calc(25vh - 5rem);
+  }
+
+  /* line 210, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+  h1 {
+    font-size: 5rem;
+  }
+
+  /* line 214, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+  .message .twitter-link img {
+    width: 80%;
+    height: 80%;
+  }
+}
+@media (min-aspect-ratio: 11 / 5) {
+  /* line 221, /workspace/codestar_rails_webpacker/app/assets/stylesheets/hello_page.scss */
+  .graphics {
+    display: none;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

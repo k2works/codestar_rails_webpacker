@@ -621,3 +621,55 @@ Processing by HelloPageController#hello as HTML
 Completed 200 OK in 1724ms (Views: 1719.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 10.140.0.37 at 2020-03-10 01:47:19 +0000
+Cannot render console from 10.140.0.37! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+DEPRECATION WARNING: Leaving `ActiveRecord::ConnectionAdapters::SQLite3Adapter.represent_boolean_as_integer`
+set to false is deprecated. SQLite databases have used 't' and 'f' to serialize
+boolean values and must have old data converted to 1 and 0 (its native boolean
+serialization) before setting this flag to true. Conversion can be accomplished
+by setting up a rake task which runs
+
+  ExampleModel.where("boolean_column = 't'").update_all(boolean_column: 1)
+  ExampleModel.where("boolean_column = 'f'").update_all(boolean_column: 0)
+
+for all models and all boolean columns, after which the flag must be set to
+true by adding the following to your application.rb file:
+
+  Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
+ (called from instance_eval at /workspace/.rvm/gems/activesupport-5.2.0/lib/active_support/lazy_load_hooks.rb:71)
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (239.4ms)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.0
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+warning package.json: No license field
+warning package.json: No license field
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1555ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Webpacker can't find react in /workspace/codestar_rails_webpacker/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+    4:     <title>RailsWebApp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= javascript_pack_tag 'react' %>
+    8:   </head>
+    9: 
+   10:   <body>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2274312160519577686_47116016873800'
